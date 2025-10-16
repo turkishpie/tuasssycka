@@ -23,8 +23,10 @@ function updateCountdown() {
             
             // Aynı sekmede Instagram'a yönlendir (Engellenme Riskini Azaltır)
             //window.location.href = REDIRECT_URL; 
-            window.open(REDIRECT_URL, '_blank');
+            //window.open(REDIRECT_URL, '_blank');
+            window.location.href = REDIRECT_URL;
             countdownElement.textContent = "Açılıyor...";
+            
         }
     }, 1000); // 1 saniye
 }
